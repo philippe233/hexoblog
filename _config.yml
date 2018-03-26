@@ -7,12 +7,13 @@ title: Utopia
 subtitle: You know how everyone's saying seize the moment?I don't know,I'm kind of thinking,it's the other way around,you know, like the moment seizes us.
 description: Linux Http Security
 author: Philippe Huang
-language: Zh-cn
+language: zh
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://philippe233.github.io/
+#url: https://philippe233.github.io/
+url: https://www.hopeline.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,4 +80,4 @@ theme: landscape
 deploy:
   type: git
   repository: git@github.com:philippe233/philippe233.github.io.git
-  branch: master
+  branch: blog
