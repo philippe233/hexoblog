@@ -3,17 +3,26 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Utopia
+title: 朝花夕拾
 subtitle: You know how everyone's saying seize the moment?I don't know,I'm kind of thinking,it's the other way around,you know, like the moment seizes us.
-description: Linux Http Security
+description: Technology Utopia
 author: Philippe Huang
+<<<<<<< HEAD
 language: zh
+=======
+language: zh-Hans
+>>>>>>> blog
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+<<<<<<< HEAD
 #url: https://philippe233.github.io/
 url: https://www.hopeline.cn/
+=======
+# url: https://www.hopeline.cn/
+url: ./
+>>>>>>> blog
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -35,7 +44,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -51,7 +60,8 @@ highlight:
 index_generator:
   path: ''
   per_page: 5
-  order_by: -date
+  #order_by: -date
+  pagination_dir: page
   
 # Category & Tag
 default_category: uncategorized
@@ -73,11 +83,23 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: git@github.com:philippe233/philippe233.github.io.git
+<<<<<<< HEAD
   branch: blog
+=======
+  branch: master
+
+#search 
+##Docs: https://vxhly.github.io/2016/08/install-hexo-next-on-github/
+search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
+>>>>>>> blog
