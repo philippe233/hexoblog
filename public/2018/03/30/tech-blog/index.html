@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="朝花夕拾">
 <meta property="og:description" content="本文主要说明构建个人博客需要的所有工具和条件，以及每一个组件在构建blog的说明和作用，并不是完整的操作手册。在搭建博客前通过阅读本文，完整的明白各个组件承担的响应的角色，当遇到问题时可以清楚地确定问题可能发生的原因。推荐完整看完本文后再进入各个组件深入学习。本文阅读时间1小时。 ToolsGit + Github Pages + Node.js + Hexo + NexT Theme knowl">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-05T10:00:28.914Z">
+<meta property="og:updated_time" content="2018-04-05T10:36:04.352Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tech Blog最佳实践">
 <meta name="twitter:description" content="本文主要说明构建个人博客需要的所有工具和条件，以及每一个组件在构建blog的说明和作用，并不是完整的操作手册。在搭建博客前通过阅读本文，完整的明白各个组件承担的响应的角色，当遇到问题时可以清楚地确定问题可能发生的原因。推荐完整看完本文后再进入各个组件深入学习。本文阅读时间1小时。 ToolsGit + Github Pages + Node.js + Hexo + NexT Theme knowl">
@@ -435,18 +435,18 @@
 <p>下载并安装nvm.（什么是nvm？不需要知道，只需要知道他可以方便安装node.js）</p>
 <ul>
 <li><p>Download nvm </p>
-<pre><code>$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    
+<pre><code>  $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    
 </code></pre></li>
 <li><p>install nvm</p>
-<pre><code>$ cd .nvm/
-$ ./install.sh
+<pre><code>  $ cd .nvm/
+  $ ./install.sh
 </code></pre></li>
 <li><p>set bash profile</p>
-<pre><code>$ export NVM_DIR=&quot;$HOME/.nvm&quot;
-$ [ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;
+<pre><code>  $ export NVM_DIR=&quot;$HOME/.nvm&quot;
+  $ [ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;
 </code></pre></li>
 <li><p>install Node.js</p>
-<pre><code>$ nvm install stable
+<pre><code>  $ nvm install stable
 </code></pre></li>
 </ul>
 <h3 id="GitHub-Page"><a href="#GitHub-Page" class="headerlink" title="GitHub Page"></a>GitHub Page</h3><p>Github做为Git的云端版本库，可以放任何人随时随地边编辑和发布文档，而且完全开源免费。Github Page作为Github的一个功能，<strong>只需要将站点文件上传到Github上，你可以拥有自己的免费Blog平台，不需要托管主机，不需要域名</strong>。</p>
@@ -461,13 +461,13 @@ $ git config --global user.email &quot;email@example.com&quot;
 <p>我们知道静网页文件都是<em>.html</em>文件，需要很多标签对格式进行控制。如果我们有Hexo后，我们可以将可读性很高的文本档使用Markdown的语法通过Hexo转换成<em>.html</em>文件，并且生成完整的完整框架。我们只需要编辑文本文件，通hexo生成网站的框架和内容，并且部署生成自己的网站。</p>
 <ul>
 <li><p>Install hexo</p>
-<pre><code>$npm install hexo-cli -g
+<pre><code>  $npm install hexo-cli -g
 </code></pre></li>
 <li><p>set up hexo  </p>
-<pre><code>$hexo init blog
-$cd blog
-$npm install
-$hexo server
+<pre><code>  $hexo init blog
+  $cd blog
+  $npm install
+  $hexo server
 </code></pre></li>
 </ul>
 <h3 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h3><p>如果说Hexo为一个人的躯体，那么NexT就是这个躯体的衣服，让Hexo变得更美，这就是NexT。</p>
@@ -616,7 +616,7 @@ INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -627,7 +627,7 @@ INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -638,7 +638,7 @@ INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
