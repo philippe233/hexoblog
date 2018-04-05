@@ -2,9 +2,9 @@
 title: boyhood
 date: 2018-03-15 15:54:39
 tags:
-	- Other
+	- film
 category:
-	- Other
+	- film
 ---
 教程
 {% blockquote Liaoxuefeng  https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000 Git教程 %}

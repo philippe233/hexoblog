@@ -1,38 +1,30 @@
 ---
-title: Hello World
+title: 《朝花夕拾》 
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+>  我常想在纷扰中寻出一点闲静来，然而委实不容易。目前是这么离奇，心里是这么芜杂。一个人做到只剩了回忆的时候，生涯大概总要算是无聊了罢，但有时竟会连回忆也没有。
 
-## Quick Start
+>前天，已将《野草》编定了；这回便轮到陆续载在《莽原》上的《旧事重提》，我还替他改了一个名称：《朝花夕拾》。带露折花，色香自然要好得多，但是我不能够。便是现在心目中的离奇和芜杂，我也还不能使他即刻幻化，转成离奇和芜杂的文章。或者，他日仰看流云时，会在我的眼前一闪烁罢。
 
-### Create a new post
+>我有一时，曾经屡次忆起儿时在故乡所吃的蔬果：菱角、罗汉豆、茭白、香瓜。凡这些，都是极其鲜美可口的；都曾是使我思乡的蛊惑。后来，我在久别之后尝到了，也不过如此；惟独在记忆上，还有旧来的意味留存。他们也许要哄骗我一生，使我时时反顾。
 
-``` bash
-$ hexo new "My New Post"
-```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+_<p align="right">——《朝花夕拾》小引</p>_
+正如鲁迅先生给文集取名《朝花夕拾》一样，当我第一次感觉到每天忙于各种凌杂的琐碎，无暇去思考和记录做过的一些工作，而当再次拿起这些工作时，记忆是那么的空白，没有一点线索可以现成的找寻。想想在这些年的工作中，有做过不少研究和探索，零散的记录在不同的地方，或是在纸质的笔记本上，在不同的文件夹中，在在线软件文档中，有些干脆没有记录，只是在大脑中保存一点记忆。 
+取名《朝花夕拾》这个寓意很好，这些年来工作中，重新整理那些有意义的资料文档，即可归纳总结多年来工作的成绩，也保存有价值的历史资料或记忆。
 
-### Run server
+>回忆，我发现，可能是不可靠的东西，尝尝被你回忆时的环境所大大的扭曲。
 
-``` bash
-$ hexo server
-```
+_<p align="right">——《远山淡影》石黑一雄</p>_
 
-More info: [Server](https://hexo.io/docs/server.html)
+当石黑一雄获得诺贝尔文学奖时，当我我看《远山淡影》这本书时，没忍住买了一本但是没怎么看懂。后来一次去一家书店阅读时，看到上面这段书评，心中瞬间被这就句话触动了。回想阅读这本书时的情节突然就想通了。 
 
-### Generate static files
+记忆，可不就是这样吗？曾经很熟悉的知识内容，在时间的冲淡下，常常只有一个模糊印象，更糟糕的是将几个不相关的片段串在一起。对于技术这个来说，太要糟糕了，当再去想用过的东西还需要不停的调试和排错，这对效率来说是巨大的损失，对精力是巨大的折磨。我们太需要这种实实在在东西将我们印象的东西记录下来。
 
-``` bash
-$ hexo generate
-```
+>Without you,who would I admire all the beautiful things with.   
+>“没有你 良辰美景可与何人说。”  
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+_<p align="right">——《天使爱美丽》台词</p>_
 
-### Deploy to remote sites
+最后，我要说的是，对于关于Share这件事，我想这也是Github的核心精神，将自己的贡献上传到公共的平台上，不仅是一个免费展示自己的平台，而且让那些需要的人可以浏览和下载。在Share中获得快乐，同时又可以帮助他人，这或许也是一种自我实现。
 
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+这大概就是我记录博客的初衷吧。

@@ -2,11 +2,11 @@
 title: Markdown Quick Guide
 date: 2018-03-29 18:01:39
 tags:
-	- Blog
+	- blog
 	- HTML
-	- Content
+	- markdown
 category:
-	- Blog
+	- blog
 ---
 
 *本文主要介绍Markdown的基本使用方法，基本不用了解HTML的语法。按照本文的说明编辑文本后，只要通过Markdown编辑器，就能生成一个html文件。本文阅读时间大约1-2个小时。*

@@ -1,4 +1,5 @@
 ---
 title: categories
-date: 2018-03-29 15:40:43
+date: 2018-04-03 15:47:45
+type: "categories"
 ---
